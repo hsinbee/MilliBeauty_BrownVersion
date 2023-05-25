@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .index-content-pic {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .index-content-pic .item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  .index-content-pic .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .index-content-pic .item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .index-content-pic .item:hover .overlay {
+    opacity: 0;
+  }
+</style>
+</head>
+<body>
+<div class="index-content-pic">
+  <div class="item">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (125).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (115).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (140).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (141).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (181).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (151).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+  <div class="item">
+    <img src="./coding-pic/nail-item/nail-cute/nail (110).png" alt="">
+    <div class="overlay">写字</div>
+  </div>
+</div>
+
+  
+</body>
+</html>
