@@ -57,14 +57,27 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
- 
+  .index-content-top-down-wrap-filter {
+    /* backdrop-filter: blur(100px) ; */
+
+  }
+
+  .index-wrap-row {}
+
+
   .index-wrap-column {
+
+
 
     border-right: 1px solid rgba(121, 85, 16, 1);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+
+
+
 
   }
 
@@ -77,14 +90,19 @@ font-family: 'Noto Sans TC', sans-serif; */
     top: 25px;
     background-color: rgba(227, 214, 214, 0.5);
 
+
+
   }
 
   .index-wrap-column i {
+
 
     text-align: center;
     margin: 20px;
 
   }
+
+
 
 
   .index-header-top-lab-menu {
@@ -272,7 +290,7 @@ font-family: 'Noto Sans TC', sans-serif; */
     font-size: 30px;
     font-weight: 50;
     background: linear-gradient(180deg, #fbfbfbce 0%, rgba(251, 251, 251, 0.478) 35.07%, rgba(251, 251, 251, 0.055) 100%);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 
@@ -291,6 +309,15 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
+  .index-top-content-logo-pic {
+    /* border: 10px solid hsl(80, 52%, 37%); */
+
+
+
+
+  }
+
+  .index-top-content-store-pic img {}
 
   .index-top-content-store-pic p {
     /* border: 10px solid hsl(274, 71%, 36%); */
@@ -351,7 +378,10 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
- 
+  .index-top-content-portfolio {
+    /* border: 10px solid hsl(274, 89%, 45%); */
+
+  }
 
   .index-top-content-portfolio img {
     box-sizing: border-box;
@@ -987,11 +1017,20 @@ font-family: 'Noto Sans TC', sans-serif; */
   }
 
 
+  .index-content-top-down-wrap-filter {
+    /* backdrop-filter: blur(100px) ; */
+
+  }
+
 
   /* ------------------ */
 
   .index-top-content-wrap {
     margin-top: 100px;
+  }
+
+  .index-top-content-pic-area {
+    /* display: flex; */
   }
 
 
@@ -1019,7 +1058,7 @@ font-family: 'Noto Sans TC', sans-serif; */
     font-size: 30px;
     font-weight: 50;
     background: linear-gradient(180deg, #fbfbfbce 0%, rgba(251, 251, 251, 0.478) 35.07%, rgba(251, 251, 251, 0.055) 100%);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 
@@ -1045,7 +1084,11 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
+  .index-top-content-logo-pic {
+    /* border: 10px solid hsl(80, 52%, 37%); */
 
+
+  }
 
   .index-top-content-store-pic img {
     width: 80px;
@@ -1101,6 +1144,10 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
+  .index-top-content-portfolio {
+    /* border: 10px solid hsl(274, 89%, 45%); */
+
+  }
 
   .index-top-content-portfolio img {
     box-sizing: border-box;

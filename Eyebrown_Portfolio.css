@@ -375,7 +375,9 @@ font-family: 'Noto Sans TC', sans-serif; */
 
 @media screen and (max-width:768px) {
 
-
+  * {
+    /* outline: 1px solid red; */
+  }
 
 
   
@@ -703,6 +705,12 @@ font-family: 'Noto Sans TC', sans-serif; */
   }
 
 
+
+  .index-wrap {
+
+    /* border: 4px solid rgb(59, 199, 94); */
+
+  }
 
 
 
