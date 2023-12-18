@@ -642,6 +642,10 @@ font-family: 'Noto Sans TC', sans-serif; */
     text-align: center;
 
   }
+  .nav-share a {
+    text-decoration: none;
+    list-style: none;
+  }
 
   .nav-share h6 {
 

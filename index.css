@@ -59,7 +59,7 @@ font-family: 'Noto Sans TC', sans-serif; */
     border: 1px solid#7ecbec; */
 
     backdrop-filter: blur(10px) brightness(70%) saturate(80%);
-    -webkit-backdrop-filter:blur(10px) brightness(70%) saturate(80%);
+    -webkit-backdrop-filter: blur(10px) brightness(70%) saturate(80%);
   }
 
 
@@ -185,7 +185,7 @@ font-family: 'Noto Sans TC', sans-serif; */
     width: 100%;
     height: 100%;
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .index-header nav h1 {
@@ -303,9 +303,12 @@ font-family: 'Noto Sans TC', sans-serif; */
 
 }
 
-.nav-share h6 {
+.nav-share a {
+  text-decoration: none;
+  list-style: none;
+}
 
-  border: 1px solidrgb(236, 179, 126);
+.nav-share h6 {
 
   font-size: 20px;
   color: var(--secondary-color);
@@ -313,11 +316,13 @@ font-family: 'Noto Sans TC', sans-serif; */
 
 .nav-share-border {
 
+
   display: inline-block;
   background-color: #1d1818a9;
   border: 1px solid#54545487;
   border-radius: 50%;
   padding: 20px;
+  margin: 13px;
 }
 
 #copyText {
@@ -435,7 +440,7 @@ font-family: 'Noto Sans TC', sans-serif; */
   margin-right: 200px;
   margin-top: 30px;
   animation: slide-star 10s linear infinite;
-  fill:#1c0505;
+  fill: #1c0505;
   z-index: -2;
 }
 
@@ -443,15 +448,19 @@ font-family: 'Noto Sans TC', sans-serif; */
   0% {
     transform: translateX(-100%) translateY(0);
   }
+
   25% {
     transform: translateX(0) translateY(25%);
   }
+
   50% {
     transform: translateX(100%) translateY(50%);
   }
+
   75% {
     transform: translateX(50%) translateY(75%);
   }
+
   100% {
     transform: translateX(0) translateY(100%);
   }
@@ -813,7 +822,7 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   body {
     background: url(./coding-pic/nail-cover-correct.jpeg), rgba(16, 6, 6, 0.651), linear-gradient(0deg, rgba(208, 177, 119, 0.4));
-   
+
 
 
     background-size: cover;
@@ -840,7 +849,7 @@ font-family: 'Noto Sans TC', sans-serif; */
     width: 100%;
     height: 100%;
     backdrop-filter: blur(10px) brightness(90%) saturate(80%);
-    -webkit-backdrop-filter:  blur(10px) brightness(90%) saturate(80%);
+    -webkit-backdrop-filter: blur(10px) brightness(90%) saturate(80%);
     display: flex;
   }
 
@@ -897,14 +906,14 @@ font-family: 'Noto Sans TC', sans-serif; */
     left: 0;
     width: 100%;
     height: 100%;
-  background: linear-gradient(0deg, rgba(14, 13, 13, 0.212), rgba(16, 6, 6, 0.9)),
-    linear-gradient(0deg, rgba(150, 126, 80, 0.1), rgba(208, 177, 119, 0.1));
-  pointer-events: none;
-  z-index: -3;
+    background: linear-gradient(0deg, rgba(14, 13, 13, 0.212), rgba(16, 6, 6, 0.9)),
+      linear-gradient(0deg, rgba(150, 126, 80, 0.1), rgba(208, 177, 119, 0.1));
+    pointer-events: none;
+    z-index: -3;
 
 
 
-      
+
     pointer-events: none;
     z-index: -3;
 
@@ -949,17 +958,9 @@ font-family: 'Noto Sans TC', sans-serif; */
 
 
   /* -------web--nav-------- */
-  .index-header-wrap {
+  .index-header-wrap {}
 
-
-  }
-
-  .index-header-top-lab {
-  
-
- 
-
-  }
+  .index-header-top-lab {}
 
 
   .index-header-top-lab-menu {
@@ -1544,13 +1545,6 @@ font-family: 'Noto Sans TC', sans-serif; */
 
 
   }
-
-
-
-
-
-
-
 
 
 }

@@ -738,6 +738,11 @@ font-family: 'Noto Sans TC', sans-serif; */
     color: var(--secondary-color);
   }
 
+  .nav-share a {
+    text-decoration: none;
+    list-style: none;
+  }
+
   .nav-share-border {
 
     display: inline-block;

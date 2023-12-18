@@ -643,6 +643,11 @@ font-family: 'Noto Sans TC', sans-serif; */
 
   }
 
+  .nav-share a {
+    text-decoration: none;
+    list-style: none;
+  }
+
   .nav-share h6 {
 
     /* border: 1px solid rgb(236, 179, 126); */
